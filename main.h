@@ -6,6 +6,8 @@
 #include <limits.h>
 int _printf(const char *format, ...);
 int _strlen(const char *str);
+void print_buffer(char buffer[], int *buff_ind);
+int _printf(const char *format, ...)
 
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
